@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  padding: 115px 50px;
   background-color: #1f2937;
   color: #fff;
   font-size: 16px;
@@ -17,10 +18,55 @@ body {
 }
 
 h1 {
-  font-size: 40px;
   font-family: Karla;
+  font-size: 40px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 40px;
+  letter-spacing: -0.025em;
 }
 
 h2 {
+  font-family: Inter;
+  color: #d5d4d8;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+button {
+  border-radius: 6px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  padding: 9px 15px 9px 15px;
+}
+
+#generate-btn {
+  background-color: #4adf86;
+  color: #fff;
+}
+
+.result-btn {
+  width: 210px;
+  height: 40px;
+  background: #273549;
+  color: #55f991;
+  text-align: center;
+  line-height: 32px;
+}
+
+.highlighted-text {
+  color: #4adf86;
+  display: block;
+}
+
+.results {
+  display: flex;
+  width: 446px;
+  gap: 24px;
+  margin-top: 40px;
+  border-top: solid 2px #2F3E53;
+  padding-top: 40px;
 }
