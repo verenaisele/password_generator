@@ -35,6 +35,13 @@ h2 {
   line-height: 28px;
 }
 
+p {
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 9px 15px 5px 15px;
+}
+
 button {
   border-radius: 6px;
   border: none;
